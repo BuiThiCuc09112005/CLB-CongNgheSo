@@ -1,0 +1,36 @@
+/* src/Components/Main/Activities/TechHeartbeat.css */
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;500&display=swap');
+
+.tech-heartbeat {
+  text-align: center;
+  padding: 90px 10px;
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+}
+
+.tech-heartbeat__line {
+  height: 11px;
+  background-color: #001f5b;
+  margin: 0 auto 10px auto;
+  max-width: 90%;
+}
+
+.tech-heartbeat__text {
+  padding: 30px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 10px auto;
+  max-width: 1000px;
+  font-family: 'Rokkitt', serif; /* Apply Rokkitt font */
+}
+
+.tech-heartbeat__hearts {
+  padding: 0px 0px 30px 0px;
+  font-size: 16px;
+  color: #aab;
+  margin: 10px 0;
+  word-spacing: 2px;
+}

@@ -1,0 +1,49 @@
+/* src/Components/Activities/CollaborativeLearning.css */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.collaborative-learning-container {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.collaborative-learning-title {
+  margin: 20px;
+  font-size: 24px;
+  color: #cb6ce6;
+  font-family: 'Yeseva One', sans-serif;
+}
+
+.collaborative-learning-image {
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+  margin-top: 10px;
+}
+
+.collaborative-learning-description {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.collaborative-learning-list {
+     list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    margin: 10px 0px 0px 130px;
+}
+
+.collaborative-learning-list li {
+  margin: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+
+.collaborative-learning-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 50px 0;
+  width: 50%; /* Adjust the width to make the line shorter */
+  margin-left: auto;
+  margin-right: auto;
+}

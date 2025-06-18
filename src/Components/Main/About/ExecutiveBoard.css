@@ -1,0 +1,79 @@
+.board-container {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 40px 20px;
+  background: #f8fafc;
+}
+
+.board-header {
+    margin-top: 40px;
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  color: white;
+  padding: 40px 20px;
+}
+
+.board-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.board-header p {
+  font-size: 16px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.board-header h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-title {
+    margin: 40px 0 20px 100px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    width: fit-content;
+    background-color: #dae7ef;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.teachers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.teacher-card {
+  text-align: center;
+  max-width: 150px;
+}
+
+.teacher-card img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.teacher-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.board-quote {
+  font-style: italic;
+  margin-top: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333;
+  font-size: 15px;
+}

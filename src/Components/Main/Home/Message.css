@@ -1,0 +1,40 @@
+/* src/Components/Main/Home/Message.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.message-container {
+  background-color: #ecf4f4;
+  padding: 20px;
+}
+
+.message-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cb6ce6;
+  font-family: 'Yeseva One', sans-serif;
+}
+
+.message-paragraphs {
+  padding: 0px 100px;
+  color: rgb(67, 64, 64);
+  font-size: 20px;
+}
+
+.paragraph-group {
+  padding: 5px;
+  font-style: italic;
+}
+
+.left-align {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.right-align {
+  text-align: right;
+  margin-right: 200px;
+}
+
+.center-align {
+  text-align: center;
+}

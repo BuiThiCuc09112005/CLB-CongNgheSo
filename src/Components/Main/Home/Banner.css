@@ -1,0 +1,44 @@
+/* src/Components/Main/Home/Banner.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.banner {
+  width: 100%;
+  height: 850px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-content {
+  text-align: center;
+  margin-top: 100px;
+  color: #0b1862;
+  font-family: 'Yeseva One', sans-serif; /* Sử dụng font Yeseva One */
+}
+
+.banner-content h1 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.join-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #a0d9fa;
+  color:#112280;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Bungee', sans-serif; /* Sử dụng font Bungee */
+}
+
+.join-button:hover {
+  background-color: #4890cf;
+}

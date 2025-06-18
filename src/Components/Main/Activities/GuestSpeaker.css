@@ -1,0 +1,51 @@
+/* src/Components/Activities/GuestSpeaker.css */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.guest-speaker-container {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.guest-speaker-title {
+  margin: 20px;
+  font-size: 24px;
+  color: #cb6ce6;
+  font-family: 'Yeseva One', sans-serif;
+}
+
+.guest-speaker-image {
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+  margin-top: 10px;
+}
+
+.guest-speaker-description {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.guest-speaker-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; /* Align text to the left */
+  display: inline-block; /* Ensure the list is centered within the container */
+  margin: 10px 0px 0px 70px;
+}
+
+
+.guest-speaker-list li {
+  margin: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+
+
+.guest-speaker-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 50px 0;
+  width: 50%; /* Adjust the width to make the line shorter */
+  margin-left: auto;
+  margin-right: auto;
+}

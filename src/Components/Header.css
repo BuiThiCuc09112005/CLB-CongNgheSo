@@ -1,0 +1,57 @@
+/* src/components/header/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Màu trắng mờ */
+  position: absolute; /* Đặt vị trí trên banner */
+  width: 100%;
+  top: 0;
+   z-index: 1000; /* hoặc bất kỳ giá trị cao nào */
+}
+
+.logoColumn {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuColumn {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.iconColumn {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.menuItem {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.activeMenuItem {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: blue;
+}
+
+.icon {
+  height: 20px;
+  margin-left: 10px;
+}

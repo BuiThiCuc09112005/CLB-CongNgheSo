@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.club-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.club-title {
+  color:#cb6ce6;
+  font-family: 'Yeseva One', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 2px solid #999;
+  border-bottom: 2px solid #999;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.club-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.club-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.club-row.single {
+  justify-content: center;
+}
+
+.club-box {
+  border-radius: 40px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  flex: 1 1 45%;
+  max-width: 500px;
+  min-width: 280px;
+}
+
+.bg-blue {
+  background-color: #dbeafe;
+}
+
+.bg-green {
+  background-color: #d1fae5;
+}
+
+.bg-lime {
+  background-color: #ccff99;
+}
+
+.club-box-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.club-box-content {
+  font-size: 14px;
+  white-space: pre-line;
+}

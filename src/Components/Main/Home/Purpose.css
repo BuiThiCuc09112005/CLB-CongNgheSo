@@ -1,0 +1,45 @@
+/* src/Components/Main/Home/Purpose.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Computer+Says+No&display=swap'); /* Import font Computer Says No */
+
+.purpose-container {
+  background-color: white;
+    padding: 0px 0px 0px 50px;
+    font-family: 'Yeseva One', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.purpose-container h2 {
+  font-family: 'Yeseva One', sans-serif;
+  margin-bottom: 20px;
+  color: #cb6ce6;
+}
+
+.purpose-content {
+  margin-left: 20px;
+}
+
+.purpose-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.purpose-item .icon {
+  margin-right: 10px;
+  color: #c6c9f0; /* Đổi màu mũi tên và chấm đen sang màu tím */
+}
+
+.purpose-item p {
+  font-family: 'Computer Says No', sans-serif; /* Sử dụng font Computer Says No */
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.sub-indent {
+  margin-left: 40px;
+}

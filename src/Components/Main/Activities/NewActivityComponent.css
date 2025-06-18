@@ -1,0 +1,27 @@
+/* src/Components/Main/Activities/NewActivityComponent.css */
+.new-activity-container {
+  background-color: #152b69;
+  padding: 100px 20px 20px 20px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.new-activity-header h3 {
+  margin: 0;
+  font-size: 35px;
+  font-style: italic; /* Make the text italic */
+}
+
+.new-activity-content, .new-activity-footer {
+  margin-top: 25px; /* Add spacing between divs */
+}
+
+.new-activity-content p, .new-activity-footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.new-activity-content {
+  margin-bottom: 10px;
+}

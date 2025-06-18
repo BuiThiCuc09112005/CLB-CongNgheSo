@@ -1,0 +1,36 @@
+/* src/Components/Main/Home/Participants.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Computer+Says+No&display=swap'); /* Import font Computer Says No */
+
+.participants-container {
+  background-color: #ecf4f4;
+  padding: 20px;
+  font-family: 'Yeseva One', sans-serif;
+}
+
+.participants-container h2 {
+  font-family: 'Yeseva One', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+   color: #cb6ce6;
+}
+
+.participants-content {
+  margin-left: 380px;
+}
+
+.participants-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.participants-item .icon {
+  margin-right: 10px;
+  color: #c6c9f0; /* Màu xanh cho icon trái tim */
+}
+
+.participants-item p {
+  font-family: 'Computer Says No', sans-serif; /* Sử dụng font Computer Says No */
+}
