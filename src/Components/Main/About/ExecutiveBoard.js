@@ -15,7 +15,7 @@ const teachers = [
     image: "/anh/thaymanh.jpg",
   },
   {
-    name: "THẦY NGUYỄN XUÂN BẠCH",
+    name: "THẦY NGUYỄN XUÂN BÁCH",
     image: "/anh/thaybach.jpg",
   },
 ];

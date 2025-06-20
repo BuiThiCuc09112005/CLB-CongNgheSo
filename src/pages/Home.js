@@ -6,10 +6,10 @@ import Participants from '../Components/Main/Home/Participants';
 import ClubActivities from '../Components/Main/Home/ClubActivities';
 import Message from '../Components/Main/Home/Message';
 
-const Home = () => {
+const Home = ({ setActiveMenu }) => { // Nhận setActiveMenu từ props
   return (
     <div>
-      <Banner />
+      <Banner setActiveMenu={setActiveMenu} /> {/* Truyền setActiveMenu xuống Banner */}
       <Purpose />
       <Participants />
       <ClubActivities />

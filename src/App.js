@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header activeMenu={activeMenu} onMenuClick={handleMenuClick} />
-      <Main activeMenu={activeMenu} /> {/* Pass activeMenu to Main */}
+      <Main activeMenu={activeMenu} setActiveMenu={setActiveMenu} /> {/* Pass setActiveMenu to Main */}
       <Footer />
     </div>
   );
